@@ -1,0 +1,32 @@
+# Toggle enchants on/off by id.
+enchants:
+  three_by_three: true
+  vein_miner: true
+  auto_smelt: true
+  lifesteal: true
+  flight_boots: true
+
+# Global caps/safety
+max-vein-blocks: 64
+max-extras-per-break: 128
+
+# Protected blocks never broken by AoE effects
+protected-blocks:
+  - BEDROCK
+  - END_PORTAL_FRAME
+  - END_PORTAL
+  - NETHER_PORTAL
+  - REINFORCED_DEEPSLATE
+
+# Durability consumption for extra blocks
+consume-durability: true
+
+# Lifesteal settings
+lifesteal:
+  heal-per-hit: 1.0  # hearts
+  cooldown-ticks: 20
+
+# Flight boots settings
+flight:
+  fly-speed: 0.1   # 0.1 is default; max ~1.0 but keep sensible
+  cancel-fall-damage: true
